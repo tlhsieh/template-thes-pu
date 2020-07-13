@@ -18,6 +18,10 @@
 % Also see the "ifodd" command below to disable more frontmatter
 %\documentclass[12pt]{puthesis}
 
+%%% Add line numbers, useful in the drafting stage for reviewers to comment on
+\usepackage{lineno}
+\linenumbers
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
 %%%% Author & title page info
 
@@ -58,6 +62,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
 %%%% Use packages
+
+%%% Citation style common in the field of AOS
+\usepackage[round]{natbib}
 
 %\usepackage{amsfonts}
 
@@ -239,7 +246,9 @@
 
 % Make the bibliography single spaced
 \singlespacing
-\bibliographystyle{plain}
+% \bibliographystyle{plain}
+% \bibliographystyle{unsrtnat} % natbib, unsorted
+\bibliographystyle{plainnat} % natbib, sorted
 
 % add the Bibliography to the Table of Contents
 \cleardoublepage
