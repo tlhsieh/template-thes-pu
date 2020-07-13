@@ -1,3 +1,5 @@
+(this fork contains format adjustments specific to the field of AOS)
+
 Princeton University Ph.D. Dissertation LaTeX Template
 
 The following is a template and document class Jeffrey Dwoskin modified to conform to the Princeton dissertation formatting guidelines.
